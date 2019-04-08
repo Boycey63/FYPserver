@@ -1,0 +1,46 @@
+{
+  "name": "TheLittleGuysApp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./src/bin/www",
+    "build": "babel src -s -D -d dist --presets env,stage-0"
+  },
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 7,
+      "sourceType": "module"
+    },
+    "env": {
+      "node": true
+    },
+    "rules": {
+      "no-console": 0,
+      "no-unused-vars": 1
+    }
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "crypto-js": "^3.1.9-1",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "jscs": "^3.0.7",
+    "jsonwebtoken": "^8.2.0",
+    "morgan": "~1.9.0",
+    "mysql": "^2.15.0",
+    "node": "^9.2.0",
+    "pug": "2.0.0-beta11",
+    "serve-favicon": "~2.4.5",
+    "wink-naive-bayes-text-classifier": "^1.1.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^4.9.0",
+    "nodemon": "^1.12.1"
+  }
+}
