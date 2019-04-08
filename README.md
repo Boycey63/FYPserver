@@ -1,4 +1,4 @@
-# FYP Servere
+# FYP Server
 
 The goal of this project is to create a web application and a mobile application directed towards small businesses that are having trouble getting customers. It will also be targeted towards people who need to find a local business. 
 
